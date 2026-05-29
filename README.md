@@ -32,6 +32,10 @@
 - 💼 目前在学习 **Java**, **TypeScript**, **Python**
 - ✍️ 拥抱AI、折腾日常都写在博客 [**xn--ljhfjm-dl0o.top**](https://xn--ljhfjm-dl0o.top/)
 - 💬 生活理念：_亲疏随缘_
+<br/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-meisijiya-181717?style=flat-square&logo=github&logoColor=white&labelColor=black)](https://github.com/meisijiya)
+[![Visitors](https://komarev.com/ghpvc/?username=meisijiya&style=flat-square&color=DC9F90&label=visitors&labelColor=black)](#)
 
 <br/>
 
@@ -39,15 +43,13 @@
 ## 📊 GitHub Statistics
 
 <div align="center">
-
+  
+<br/>
+  
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=meisijiya&theme=radical&hide_border=true&background=0D1117&stroke=DC9F90&ring=DC9F90&fire=DC9F90&currStreakLabel=DC9F90&sideLabels=DC9F90)
 
 </div>
 
-<br/>
-
-[![GitHub](https://img.shields.io/badge/GitHub-meisijiya-181717?style=flat-square&logo=github&logoColor=white&labelColor=black)](https://github.com/meisijiya)
-[![Visitors](https://komarev.com/ghpvc/?username=meisijiya&style=flat-square&color=DC9F90&label=visitors&labelColor=black)](#)
 
 <br/>
 
