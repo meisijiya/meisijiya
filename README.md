@@ -91,7 +91,7 @@
 <br/>
 
 <!-- Contribution Snake Animation -->
-![Snake animation](https://github.com/platane/snk/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://raw.githubusercontent.com/meisijiya/meisijiya/output/github-snake-dark.svg)
 
 </div>
 
