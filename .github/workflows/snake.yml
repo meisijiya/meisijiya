@@ -1,0 +1,31 @@
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"  # 每12小时运行一次
+  workflow_dispatch:  # 支持手动触发
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: meisijiya
+          outputs: |
+            dist/github-snake-dark.svg?color_snake=#06B6D4&color_dots=#06B6D4,#7C3AED,#F472B6,#FBBF24,#34D399
+            dist/github-snake.svg?color_snake=#06B6D4&color_dots=#06B6D4,#7C3AED,#F472B6,#FBBF24,#34D399
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist
+          publish_branch: output

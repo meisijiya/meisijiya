@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <defs>
+    <!-- Neon glow filter -->
+    <filter id="neon" x="-50%" y="-50%" width="200%" height="200%">
+      <!-- Outer glow -->
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur1"/>
+      <feColorMatrix in="blur1" type="matrix" values="0 0 0 0 0.863 0 0 0 0 0.624 0 0 0 0 0.565 0 0 0 0.8 0" result="glow1"/>
+      
+      <!-- Middle glow -->
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur2"/>
+      <feColorMatrix in="blur2" type="matrix" values="0 0 0 0 0.863 0 0 0 0 0.624 0 0 0 0 0.565 0 0 0 1 0" result="glow2"/>
+      
+      <!-- Inner glow -->
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur3"/>
+      <feColorMatrix in="blur3" type="matrix" values="0 0 0 0 1 0 0 0 0 0.9 0 0 0 0 0.85 0 0 0 1 0" result="glow3"/>
+      
+      <!-- Merge all glows -->
+      <feMerge>
+        <feMergeNode in="glow1"/>
+        <feMergeNode in="glow2"/>
+        <feMergeNode in="glow3"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Background gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0a0a;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Neon text gradient -->
+    <linearGradient id="neonGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#DC9F90;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFB6C1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DC9F90;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Dark background -->
+  <rect width="800" height="300" fill="url(#bgGradient)"/>
+  
+  <!-- Grid lines for cyberpunk effect -->
+  <g stroke="#DC9F90" stroke-opacity="0.1" stroke-width="0.5">
+    <line x1="0" y1="50" x2="800" y2="50"/>
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="250" x2="800" y2="250"/>
+    <line x1="100" y1="0" x2="100" y2="300"/>
+    <line x1="200" y1="0" x2="200" y2="300"/>
+    <line x1="300" y1="0" x2="300" y2="300"/>
+    <line x1="400" y1="0" x2="400" y2="300"/>
+    <line x1="500" y1="0" x2="500" y2="300"/>
+    <line x1="600" y1="0" x2="600" y2="300"/>
+    <line x1="700" y1="0" x2="700" y2="300"/>
+  </g>
+  
+  <!-- Decorative neon circles -->
+  <circle cx="150" cy="150" r="80" fill="none" stroke="#DC9F90" stroke-width="1" stroke-opacity="0.3" filter="url(#neon)"/>
+  <circle cx="650" cy="150" r="60" fill="none" stroke="#DC9F90" stroke-width="1" stroke-opacity="0.3" filter="url(#neon)"/>
+  
+  <!-- Main neon text -->
+  <text x="400" y="160" font-family="'Arial', 'Helvetica', sans-serif" font-size="80" font-weight="bold" fill="url(#neonGradient)" text-anchor="middle" filter="url(#neon)" letter-spacing="8">
+    meisijiya
+  </text>
+  
+  <!-- Subtitle with different glow -->
+  <text x="400" y="210" font-family="'Arial', 'Helvetica', sans-serif" font-size="18" fill="#DC9F90" text-anchor="middle" filter="url(#neon)" letter-spacing="4" opacity="0.8">
+    大三在校生 · Java/TS/Python爱好者
+  </text>
+  
+  <!-- Decorative lines -->
+  <line x1="200" y1="230" x2="600" y2="230" stroke="#DC9F90" stroke-width="1" stroke-opacity="0.5" filter="url(#neon)"/>
+  
+  <!-- Corner decorations -->
+  <g stroke="#DC9F90" stroke-width="2" stroke-opacity="0.6" filter="url(#neon)">
+    <!-- Top left corner -->
+    <line x1="20" y1="20" x2="60" y2="20"/>
+    <line x1="20" y1="20" x2="20" y2="60"/>
+    
+    <!-- Top right corner -->
+    <line x1="780" y1="20" x2="740" y2="20"/>
+    <line x1="780" y1="20" x2="780" y2="60"/>
+    
+    <!-- Bottom left corner -->
+    <line x1="20" y1="280" x2="60" y2="280"/>
+    <line x1="20" y1="280" x2="20" y2="240"/>
+    
+    <!-- Bottom right corner -->
+    <line x1="780" y1="280" x2="740" y2="280"/>
+    <line x1="780" y1="280" x2="780" y2="240"/>
+  </g>
+  
+  <!-- Animated dots (simulated with multiple circles) -->
+  <circle cx="100" cy="50" r="3" fill="#DC9F90" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="50" r="3" fill="#DC9F90" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.2;0.5" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="100" cy="250" r="3" fill="#DC9F90" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.3;0.6" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="250" r="3" fill="#DC9F90" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0.1;0.4" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
