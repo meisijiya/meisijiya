@@ -35,43 +35,6 @@
 
 <br/>
 
-## 🛠️ Tech Stack & Tools
-
-<table>
-  <tr>
-    <td><b>Languages</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=openjdk&logoColor=white&labelColor=black" />
-      <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=black" />
-      <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=black" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>Frameworks</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white&labelColor=black" />
-      <img src="https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white&labelColor=black" />
-      <img src="https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white&labelColor=black" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>Tools</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white&labelColor=black" />
-      <img src="https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white&labelColor=black" />
-      <img src="https://img.shields.io/badge/-IntelliJ%20IDEA-000000?style=flat-square&logo=intellij-idea&logoColor=white&labelColor=black" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>Databases</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white&labelColor=black" />
-      <img src="https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white&labelColor=black" />
-    </td>
-  </tr>
-</table>
-
-<br/>
 
 ## 📊 GitHub Statistics
 
@@ -83,14 +46,8 @@
 
 <br/>
 
-## 🔗 Badges & Links
-
-<div align="center">
-
 [![GitHub](https://img.shields.io/badge/GitHub-meisijiya-181717?style=flat-square&logo=github&logoColor=white&labelColor=black)](https://github.com/meisijiya)
 [![Visitors](https://komarev.com/ghpvc/?username=meisijiya&style=flat-square&color=DC9F90&label=visitors&labelColor=black)](#)
-
-</div>
 
 <br/>
 
