@@ -2,9 +2,9 @@
   
 # <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="36" alt="wave" /> Hi there, I'm **meisijiya**
 
-**`大三在校生 · Java/TS/Python爱好者`**
+**大三在校生 · Java/TS/Python爱好者**
 
-**`亲疏随缘 · Go with the flow`**
+**亲疏随缘 · Go with the flow**
 
 <br/>
 
