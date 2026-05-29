@@ -101,7 +101,7 @@
 
 <div align="center">
 
-[![Blog](https://img.shields.io/badge/Blog-xn--ljhfjm-dl0o.top-DC9F90?style=flat-square&logo=astro&logoColor=white&labelColor=black)](https://xn--ljhfjm-dl0o.top/)
+[![Blog](https://img.shields.io/badge/Blog-xn--ljhfjm%2Ddl0o.top-DC9F90?style=flat-square&logo=astro&logoColor=white&labelColor=black)](https://xn--ljhfjm-dl0o.top/)
 [![GitHub](https://img.shields.io/badge/GitHub-meisijiya-181717?style=flat-square&logo=github&logoColor=white&labelColor=black)](https://github.com/meisijiya)
 [![Visitors](https://komarev.com/ghpvc/?username=meisijiya&style=flat-square&color=DC9F90&label=visitors&labelColor=black)](#)
 
