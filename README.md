@@ -30,7 +30,7 @@
 - 🎓 **大三在校生** at university
 - 📍 现居中国
 - 💼 目前在学习 **Java**, **TypeScript**, **Python**
-- ✍️ 拥抱AI、折腾日常都写在博客 [**xn--ljhfjm-dl0o.top**](https://xn--ljhfjm-dl0o.top/)
+- ✍️ 拥抱AI、折腾日常都写在博客 ([blog](https://meisijiya.site/))
 - 💬 生活理念：_亲疏随缘_
 <br/>
 
